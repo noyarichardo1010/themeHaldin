@@ -1,0 +1,11 @@
+<?php
+get_header();
+get_template_part('template/home/landing-page');
+get_template_part('template/home/our-story');
+get_template_part('template/home/origin');
+get_template_part('template/home/planet');
+get_template_part('template/home/media');
+get_template_part('template/home/follow-us');
+get_template_part('template/modal/default-modal');
+get_footer();
+?>
