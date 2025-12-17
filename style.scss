@@ -1805,3 +1805,133 @@ footer {
 .wrap_card_products{
 	
 }
+
+// more
+
+.wrap_style02{
+	.noya-archive-page {
+		padding: 60px 0;
+	}
+	
+	.archive-back {
+		margin-bottom: 20px;
+	}
+	
+	.archive-back a {
+		font-size: 14px;
+		text-decoration: none;
+		color: #000;
+	}
+	
+	.archive-header {
+		text-align: center;
+		margin-bottom: 10px;
+	}
+	
+	.archive-desc {
+		font-size: 14px;
+	}
+	
+	.archive-toolbar {
+		display: flex;
+		justify-content: space-between;
+		margin-bottom: 40px;
+		font-size: 14px;
+	}
+	
+	.noya-product-grid {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		gap: 60px;
+	}
+	
+	.noya-product-card {
+		text-align: center;
+	}
+	
+	.product-image img {
+		border-radius: 50%;
+		max-width: 220px;
+		margin: 0 auto 30px;
+	}
+	
+	.product-title {
+		font-size: 20px;
+		font-weight: 600;
+	}
+	
+	.product-title a {
+		color: #000;
+		text-decoration: none;
+	}
+	
+	.product-sku {
+		margin-top: 10px;
+		font-size: 14px;
+		color: #000;
+	}
+	
+	.product-divider {
+		width: 60px;
+		height: 3px;
+		background: #2e7d32;
+		margin: 15px auto;
+	}
+	
+	.product-excerpt {
+		font-size: 14px;
+		line-height: 1.6;
+		color: #333;
+	}
+	
+	.btn-request {
+		display: inline-block;
+		margin-top: 25px;
+		padding: 10px 24px;
+		background: #eee;
+		color: #555;
+		text-decoration: none;
+		border-radius: 6px;
+		font-size: 14px;
+	}
+	
+}
+
+.product-item-content.mb-3.wrap_product_list{
+	p{
+		display: -webkit-box;
+		-webkit-box-orient: vertical;
+		-webkit-line-clamp: 3;
+		overflow: hidden;
+		text-overflow: ellipsis;
+	}
+}
+
+.cstm_.entry-content{
+	.woocommerce{
+		.products{
+			h2.woocommerce-loop-product__title{
+				display: none !important;
+			}
+		}
+		.wrap_title_product_list{
+			margin-top: 16px;
+			a{
+				height: 100px;
+				font-size: 24px !important;
+				font-weight: 600;
+				margin-top: 16px !important;
+				display: -webkit-box;
+				-webkit-box-orient: vertical;
+				-webkit-line-clamp: 3;
+				overflow: hidden;
+				text-overflow: ellipsis;
+				color: #242424;
+				&:hover{
+					color: #5493f6;
+					transition:0.2s;
+				}
+			}
+		}
+	}
+}

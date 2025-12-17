@@ -32,6 +32,12 @@ global $product;
 	$desc = $product->get_description();
 ?>
 
+<div class="wrap_title_product_list">
+	<a href="<?php echo esc_url( get_permalink( $product->get_id() ) ); ?>">
+		<?php the_title(); ?>
+	</a>
+</div>
+
 <div class="product-item-production-code mb-1">
   #<?php echo get_post_meta(get_the_id(), 'production_code', true); ?>
 </div>
