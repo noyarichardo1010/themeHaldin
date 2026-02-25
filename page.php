@@ -97,29 +97,22 @@ if($request[0] == "my-account"){
 <section class="p-relative landing-page full-height page-content <?= $page_class ?>">
 
 
-	<div class="text-left wrap_desktop_btn mt-2">	
+	<!-- <div class="text-left wrap_desktop_btn mt-2">	
 			<a onclick="window.history.back();" class="btn-product-application2 btn btn-rounded text-center">
 				<i class="fas fa-arrow-circle-left"></i> Back
 			</a>
+	</div> -->
+
+	<div id="back_list_product" class="text-left wrap_desktop_btn_category mt-4 pb-3">	
+		<a onclick="window.history.back();" class="btn-product-back">
+			<img src="<?php echo get_template_directory_uri(); ?>/images/back_btn.png" alt="">
+		</a>
 	</div>
 
 	<div class="container py-5">
 
 		<div class="row">
-			<?php if ( is_product_category()): ?>
-				<div class="col-12 mb-3 text-right desktop-btn">
-				  <a href="<?php echo $product_innovation_link; ?>" class="btn-product-application btn btn-rounded text-center">
-					Application
-					<i class="fa fa-arrow-right"></i>
-				  </a>
-				</div>
-				<div class="col-12 text-center mb-5">
-	              <a href="<?php echo $product_innovation_link; ?>" class="btn-product-application-mobile text-center">
-	                Application
-	                <i class="fa fa-arrow-right"></i>
-	              </a>
-	            </div>
-			<?php endif; ?>
+			
 
 			<?php if (have_posts()): ?>
 				<?php while (have_posts()): the_post(); ?>
@@ -144,6 +137,26 @@ if($request[0] == "my-account"){
 					</div>
 				<?php endwhile; ?>
 			<?php endif; ?>
+
+			
+
+			<div class="wrap_btn_applications">
+				<?php if ( is_product_category()): ?>
+					<div class="col-12 text-right desktop-btn">
+					<a href="<?php echo $product_innovation_link; ?>" class="btn-product-application btn btn-rounded text-center">
+						Application
+						<i class="fa fa-arrow-right"></i>
+					</a>
+					</div>
+					<div class="col-12 text-center mb-5">
+					<a href="<?php echo $product_innovation_link; ?>" class="btn-product-application-mobile text-center">
+						Application
+						<i class="fa fa-arrow-right"></i>
+					</a>
+					</div>
+				<?php endif; ?>
+			</div>
+
 		</div>
 	</div>
 </section>

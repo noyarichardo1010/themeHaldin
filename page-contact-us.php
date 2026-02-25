@@ -83,6 +83,48 @@ get_header();
         </div>
       </div>
     </section>
+    <!-- Others Sections -->
+    <div class="wrap_bottom_contact_us">
+      <div class="container">
+        <h3 class="title">Production Facilities</h3>
+          <p>Our facilities are designed to support diverse processing capabilities including spray drying, vacuum extraction, fermentation, and
+          concentration. This allows us to transform raw botanicals into high-performance, ready-to-use natural ingredients.</p>
+
+          <div class="row">
+            <div class="col-12 col-md-3">
+              <div class="card_contact">
+                <h5>Plant Cibitung</h5>
+                <h6>Jl. Irian V Blok MM-2 Cibitung Industrial Town MM2100 Cibitung, Bekasi 17520</h6>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15862.533517179261!2d107.08747839457439!3d-6.311799721085247!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e699076b258ca17%3A0x582d15392dee08cc!2sPT.%20Haldin%20Pacific%20Semesta!5e0!3m2!1sid!2sid!4v1766986961352!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+            </div>
+            <div class="col-12 col-md-3">
+              <div class="card_contact">
+                <h5>Plant Cikarang</h5>
+                <h6>Kawasan Industri Cikarang Blok C/3-A, Jl Jababeka IV, Cikarang Utara, Bekasi, West Java 17530</h6>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63450.147341717624!2d107.05657824828866!3d-6.311691360700698!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69852c87b63b2b%3A0x65901ff064fe0957!2sPT%20Haldin%20Pacific%20Semesta%20-%20Plant%20Cikarang!5e0!3m2!1sid!2sid!4v1766987378213!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+            </div>
+            <div class="col-12 col-md-3">
+              <div class="card_contact">
+                <h5>Plant Setu</h5>
+                <h6>Jl. Metro-Telajung RT 02/RW 06, Desa Telajung, Cikarang Barat, Bekasi 17530, West Java</h6>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15862.142597732058!2d107.04426763955078!3d-6.324552599999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69905109850427%3A0x7365441b11b5d161!2sPT%20Haldin%20Pacific%20Semesta!5e0!3m2!1sid!2sid!4v1766987426596!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+            </div>
+            <div class="col-12 col-md-3">
+              <div class="card_contact">
+                <h5>Plant Lampung</h5>
+                <h6>Jl. Lintas Sumatra, Bumiagung, Kec. Tegineneng, Kabupaten Pesawaran, Lampung 35363</h6>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3973.522266275873!2d105.17698697478387!3d-5.180244152280235!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e40b7b009996e35%3A0xd7bbfe0a1240a82b!2sPT%20Haldin%20Pacific%20Semesta%20-%20Plant%20Lampung!5e0!3m2!1sid!2sid!4v1766987451896!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+            </div>
+          </div>
+      </div>
+
+    </div>
+
+
 	<?php endwhile; ?>
 <?php endif; ?>
 <?php get_footer(); ?>

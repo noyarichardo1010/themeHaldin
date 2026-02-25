@@ -33,7 +33,7 @@ if(!is_home()) {
 					</li>
 					<div class="lang_option02">
 						<!-- <?php echo do_shortcode('[lang_switcher_id_en]'); ?> -->
-						<?php echo do_shortcode('[language-switcher]'); ?>
+						<!-- <?php echo do_shortcode('[language-switcher]'); ?> -->
 					</div>
 				</ul>
 				<!-- <div class="lang_option">
@@ -64,6 +64,14 @@ if(!is_home()) {
 
 						</a>
 					</li>
+					
+					<li class="nav-item">
+						<a class="nav-link" href="<?php echo get_site_url();?>/haldin-biotech">
+						<img src="<?php echo get_template_directory_uri(); ?>/images/bio/logo_haldin_bio.png" alt="" style="margin-top:-10px"  class="img-fluid">
+
+							</a>
+					</li>
+
 				</ul>
 			</div>
 		</div>

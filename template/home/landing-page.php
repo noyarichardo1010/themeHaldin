@@ -4,7 +4,7 @@ if ($post):
 	$image = wp_get_attachment_image_src(get_post_thumbnail_id(get_the_id()), 'single-post-thumbnail');
 	if ($image) $image = $image[0];
 	?>
-  <section id="home"
+  <!-- <section id="home"
            style="background-image: url(<?php echo $image; ?>)"
            class="full-height cover d-flex landing-page">
     <div class="container d-flex align-items-center">
@@ -19,5 +19,11 @@ if ($post):
           </div>
       </div>
     </div>
-  </section>
+  </section> -->
+
+  <div class="wrap_carousel_slide">
+    <?php add_revslider('slider-1'); ?>
+  </div>
+
+
 <?php endif; ?>

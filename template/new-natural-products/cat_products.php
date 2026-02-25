@@ -25,7 +25,6 @@ if ($query->have_posts()) : ?>
                             <?php endif; ?>
                         </a>
                     </li>
-
                 <?php endwhile; ?>
             </ul>
         </div>
@@ -43,3 +42,4 @@ if ($query->have_posts()) : ?>
     wp_reset_postdata();
 endif;
 ?>
+

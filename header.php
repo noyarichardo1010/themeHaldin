@@ -37,7 +37,10 @@
 		get_template_part('template/haldin-x-header');
   } else if ($post && $post->post_name == 'haldin-foods') {
 		get_template_part('template/haldin-food-header');
-	}else {
+	} else if ($post && $post->post_name == 'haldin-biotech') {
+		get_template_part('template/header-haldin-biotech');
+	}
+  else {
 		get_template_part('template/main-header');
 	}
 	?>

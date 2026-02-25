@@ -1,0 +1,10 @@
+<?php
+get_header();
+get_template_part('template/biotech/section1');
+get_template_part('template/biotech/section2');
+get_template_part('template/biotech/section3');
+get_template_part('template/biotech/section4');
+get_template_part('template/biotech/section5');
+get_template_part('template/biotech/section6');
+get_footer();
+?>

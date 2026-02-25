@@ -41,6 +41,10 @@ function theme_scripts()
 
 add_action('wp_enqueue_scripts', 'theme_scripts');
 
+// Custom product haldin
+// remove_action('woocommerce_single_product_summary', 'woocommerce_template_single_add_to_cart', 30);
+
+
 remove_action('wp_head', 'adjacent_posts_rel_link_wp_head', 10, 0);
 remove_action('wp_head', 'feed_links_extra', 3); // Display the links to the extra feeds such as category feeds
 remove_action('wp_head', 'feed_links', 2); // Display the links to the general feeds: Post and Comment Feed
@@ -953,3 +957,29 @@ function spvs_func_option_valgt() {
         <?php
     }
 }
+
+
+
+// sort product by latest
+add_action( 'pre_get_posts', 'haldin_product_default_sort_latest' );
+function haldin_product_default_sort_latest( $query ) {
+
+    // hanya frontend
+    if ( is_admin() || ! $query->is_main_query() ) {
+        return;
+    }
+
+    // hanya halaman produk WooCommerce
+    if ( is_shop() || is_product_category() || is_product_tag() ) {
+
+        $query->set( 'orderby', 'date' );
+        $query->set( 'order', 'DESC' );
+
+    }
+}
+
+
+
+// add_action('wp_enqueue_scripts', function () {
+//     wp_enqueue_script('jquery');
+// });

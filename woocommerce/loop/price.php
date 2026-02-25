@@ -38,9 +38,30 @@ global $product;
 	</a>
 </div>
 
-<div class="product-item-production-code mb-1">
-  #<?php echo get_post_meta(get_the_id(), 'production_code', true); ?>
+
+
+<?php
+// Default Colors
+$border_color = '#cacaca';
+
+$terms = get_the_terms( get_the_ID(), 'product_cat' );
+
+if ( ! empty( $terms ) && ! is_wp_error( $terms ) ) {
+    // First category
+    $term = $terms[0];
+    // Taxonomy
+    $cat_color = get_term_meta( $term->term_id, 'cat_colors', true );
+    if ( ! empty( $cat_color ) ) {
+        $border_color = $cat_color;
+    }
+}
+?>
+
+<div class="product-item-production-code mb-1 border_style"
+     style="border-bottom:5px solid <?php echo esc_attr( $border_color ); ?>;">
+  #<?php echo esc_html( get_post_meta( get_the_ID(), 'production_code', true ) ); ?>
 </div>
+
 
 <div class="product-item-content mb-3 wrap_product_list">
 		<?php the_content(); ?>
@@ -61,3 +82,7 @@ global $product;
 			<?php endif; ?> -->
 		</div>
 </div>
+
+<?php
+	get_template_part('template/component/button-whatsapp');
+?>

@@ -25,7 +25,7 @@ get_header();
                         $link_categories = get_field('link_category');
 
                         if ($link_categories) : ?>
-                            <ul>
+                            <ul class="menu-grid">
                                 <?php
                     
                                 $terms = is_array($link_categories) ? $link_categories : [$link_categories];
@@ -94,7 +94,15 @@ get_header();
         endwhile;
     endif;
     ?>
+
+    <div class="text-left wrap_desktop_btn_category mt-4 pb-3">	
+			<a onclick="window.history.back();" class="btn-product-back">
+				<img src="<?php echo get_template_directory_uri(); ?>/images/back_btn.png" alt="">
+			</a>
+	</div>
+
     </div>
+
 </main>
 
 <?php

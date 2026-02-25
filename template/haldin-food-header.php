@@ -13,9 +13,9 @@
         <li class="nav-item">
           <a class="nav-link scroll" href="<?php echo get_site_url(); ?>/contact-us" style="font-size: 1.3rem;">Contact Us</a>
         </li>
-        <div class="lang_option02">
+        <!-- <div class="lang_option02">
           <?php echo do_shortcode('[gtranslate]'); ?>
-        </div>
+        </div> -->
       </ul>
 			<?php get_template_part('template/socmed-navbar'); ?>
     </div>
@@ -42,6 +42,14 @@
 						<img src="<?php echo get_template_directory_uri(); ?>/images/logo-for-web-rev-06.png" alt="" style="margin-top:-25px" class="img-fluid">
 					</a>
 				</li>
+
+        <li class="nav-item">
+            <a class="nav-link" href="<?php echo get_site_url();?>/haldin-biotech">
+            <img src="<?php echo get_template_directory_uri(); ?>/images/bio/logo_haldin_bio.png" alt="" style="margin-top:-10px"  class="img-fluid">
+
+                </a>
+          </li>
+
       </ul>
     </div>
   </div>

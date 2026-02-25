@@ -21,6 +21,8 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 get_header( 'shop' ); ?>
 
+<main id="primary" class="site-main noya-single-product">
+
 	<?php
 		/**
 		 * woocommerce_before_main_content hook.
@@ -55,8 +57,10 @@ get_header( 'shop' ); ?>
 		 */
 		do_action( 'woocommerce_sidebar' );
 	?>
+</main>
 
 <?php
+
 get_footer( 'shop' );
 
 /* Omit closing PHP tag at the end of PHP files to avoid "headers already sent" issues. */
