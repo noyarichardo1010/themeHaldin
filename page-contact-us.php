@@ -29,9 +29,8 @@ get_header();
 }
       </style>
     <section style="background-image: url(<?php echo $thumb ?>)" class="cover"
-    >
-      <div
-        class="container full-height landing-page py-5">
+      >
+      <div class="container full-height landing-page py-5" style="margin-top: 10rem;">
         <div class="row">
           <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3 text-white">
             <h1 class="font-weight-bold mb-5">

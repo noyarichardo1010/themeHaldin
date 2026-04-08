@@ -1,0 +1,180 @@
+@font-face {
+    font-family: 'Futura Std';
+    src: url('FuturaStd-Bold.woff2') format('woff2'),
+        url('FuturaStd-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ITC Century Std';
+    src: url('CenturyStd-Light.woff2') format('woff2'),
+        url('CenturyStd-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Futura Std';
+    src: url('FuturaStd-BoldOblique.woff2') format('woff2'),
+        url('FuturaStd-BoldOblique.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Futura Std';
+    src: url('FuturaStd-Book.woff2') format('woff2'),
+        url('FuturaStd-Book.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Futura Std';
+    src: url('FuturaStd-BookOblique.woff2') format('woff2'),
+        url('FuturaStd-BookOblique.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Futura Std';
+    src: url('FuturaStd-ExtraBold.woff2') format('woff2'),
+        url('FuturaStd-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Futura Std';
+    src: url('FuturaStd-ExtraBoldOblique.woff2') format('woff2'),
+        url('FuturaStd-ExtraBoldOblique.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Futura Std';
+    src: url('FuturaStd-Heavy.woff2') format('woff2'),
+        url('FuturaStd-Heavy.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Futura Std';
+    src: url('FuturaStd-HeavyOblique.woff2') format('woff2'),
+        url('FuturaStd-HeavyOblique.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Futura Std';
+    src: url('FuturaStd-Light.woff2') format('woff2'),
+        url('FuturaStd-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Futura Std';
+    src: url('FuturaStd-LightOblique.woff2') format('woff2'),
+        url('FuturaStd-LightOblique.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Futura Std';
+    src: url('FuturaStd-Medium.woff2') format('woff2'),
+        url('FuturaStd-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Futura Std';
+    src: url('FuturaStd-MediumOblique.woff2') format('woff2'),
+        url('FuturaStd-MediumOblique.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ITC Century Std';
+    src: url('CenturyStd-UltraItalic.woff2') format('woff2'),
+        url('CenturyStd-UltraItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ITC Century Std';
+    src: url('CenturyStd-Bold.woff2') format('woff2'),
+        url('CenturyStd-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ITC Century Std';
+    src: url('CenturyStd-BoldItalic.woff2') format('woff2'),
+        url('CenturyStd-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ITC Century Std';
+    src: url('CenturyStd-Book.woff2') format('woff2'),
+        url('CenturyStd-Book.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ITC Century Std';
+    src: url('CenturyStd-BookItalic.woff2') format('woff2'),
+        url('CenturyStd-BookItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ITC Century Std';
+    src: url('CenturyStd-LightItalic.woff2') format('woff2'),
+        url('CenturyStd-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ITC Century Std';
+    src: url('CenturyStd-Ultra.woff2') format('woff2'),
+        url('CenturyStd-Ultra.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

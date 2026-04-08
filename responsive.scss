@@ -1,0 +1,328 @@
+/* ===================================== */
+/* ========== RESPONSIVE MOBILE ========= */
+/* ===================================== */
+
+@media (max-width: 768px) {
+
+    .wrap_carousel_slide{
+        .sr7-layer.title_banner{
+            font-family: 'Futura Std', sans-serif !important;
+            font-size: 30px !important;
+            font-weight: 600 !important;
+            color: #fff !important;
+            text-transform: uppercase !important;
+            line-height: normal !important;
+            top: 20px! important;
+            left: 50px !important;
+        }
+        .sr7-layer.second_title{
+            font-family: 'ITC Century Std', serif !important;
+            font-size: 16px !important;
+            line-height: normal !important;
+            width: 80% !important;
+            color: #fff !important;
+            text-transform: uppercase !important;
+            line-height: normal !important;
+            top: 100px !important;
+            left: 50px !important;
+        }
+    }
+
+    .customspace2m{
+        margin-right: -16px;
+    }
+    #product-categories{
+        h3{
+            margin-top: 60px;
+            padding: 0px 5px !important;
+            font-size: 24px !important;
+        }
+    }
+    .wrap_section_content.section_nature.blue_bg.pb-0.pt-0{
+        .space_container{
+            padding-top: 0;
+            padding-bottom: 40px;
+        }
+    }
+    .wrap_button{
+        padding-bottom: 16px;
+    }
+    .wrap_section_content .wrap_button a{
+        font-weight: 600;
+        font-size: 16px;
+    }
+    .p-m-0{
+        padding: 0 !important;
+    }
+    .wrap_section_content p.sub_title{
+        margin-bottom: 0;
+    }
+    .section_nature{
+        .img_content.right_space{
+            padding-right: 0;
+            margin-top: 0;
+        }
+        .space_container {
+            padding-top: 0px;
+            padding-bottom: 20px;
+        }
+    }
+    .img_content{
+        margin-left: -16px;
+        margin-top: 30px;
+        margin-right: 0px;
+    }
+
+    /* HEADER */
+    .header_biotech {
+      height: auto;
+      padding: 15px 0;
+  
+      .header-logo {
+        height: 50px;
+      }
+  
+      .navbar-nav.header-menu {
+        margin-top: 10px;
+        text-align: center;
+      }
+  
+      .nav-item {
+        margin-left: 0;
+        margin-bottom: 10px;
+      }
+  
+      .nav-link {
+        font-size: 16px;
+      }
+    }
+  
+    /* BANNER */
+    .biotech_banner {
+      height: 60vh;
+      background-position: center;
+    }
+  
+    /* ABOUT SECTION */
+    .about_biotech {
+      .wrap_this_about {
+        flex-direction: column;
+      }
+  
+      .wrap_card_biotech {
+        img {
+          height: auto;
+        }
+  
+        .wrap_content {
+          padding: 20px;
+        }
+  
+        .btn.btn-rounded.btn-origin.btn-sm {
+          position: relative;
+          bottom: auto;
+          margin-top: 20px;
+        }
+      }
+    }
+  
+    /* SECTION 3 */
+    .wrap_section_3 {
+      padding-top: 30px;
+  
+      .wrap_title h3,
+      .wrap_content .wrap_title h3,
+      .wrap_content .wrap_title_2 h3,
+      .wrap_content .wrap_title_2 h3.blue {
+        font-size: 28px;
+      }
+  
+      .wrap_content {
+  
+        .right_side,
+        .left_side {
+          .content_text {
+            padding: 20px;
+          }
+        }
+      }
+    }
+  
+    /* SECTION 4 GRID */
+    .wrap_section_4 {
+      .grid_section {
+        grid-template-columns: 1fr;
+      }
+  
+      .card_section {
+        min-height: 150px;
+      }
+    }
+  
+    /* INNOVATION SECTION */
+    .innovation-section {
+      padding: 40px 0;
+  
+      .grid-wrapper {
+        grid-template-columns: 1fr;
+      }
+  
+      h2 {
+        font-size: 28px;
+      }
+  
+      .box {
+        padding: 25px;
+      }
+  
+      .space_innovation_left,
+      .space_innovation_right {
+        .wrap_content {
+          padding: 20px;
+        }
+  
+        .wrap_img {
+          height: auto;
+  
+          img {
+            height: auto;
+          }
+        }
+      }
+  
+      .accordion .accordion-item .accordion-body .wrap_content_more_acc {
+        flex-direction: column;
+        gap: 20px;
+      }
+    }
+  
+    /* CONTACT */
+    .wrap_contact_us {
+      padding: 40px 20px;
+  
+      .wrap_form .wrap_button {
+        text-align: left;
+      }
+    }
+  
+    /* GENERIC CONTENT SECTION */
+    .wrap_section_content {
+  
+      padding-top: 40px;
+      padding-bottom: 40px;
+  
+      .space_container {
+        padding-top: 60px;
+  
+        &.left_space {
+          padding-left: 20px;
+        }
+      }
+  
+      .right_space {
+        // padding-right: 20px;
+      }
+  
+      h2.title_section {
+        font-size: 30px;
+        margin-bottom: 25px;
+      }
+  
+      p.sub_title {
+        font-size: 16px;
+      }
+    }
+  
+    /* EXPERIENCE SECTION */
+    .experience_section {
+      min-height: 450px;
+      padding: 60px 20px;
+  
+      h2 {
+        font-size: 32px;
+      }
+  
+      p {
+        font-size: 16px;
+      }
+    }
+  
+    /* FORMULA SLIDER */
+    .block_formula_section {
+      padding-top: 40px;
+      padding-bottom: 80px;
+  
+      .natural_content {
+        padding-right: 0;
+      }
+  
+      .slide_label a {
+        font-size: 14px;
+        padding: 12px 24px;
+      }
+    }
+  
+    /* WORK WITH NATURE */
+    .work_with_nature {
+      .work_item {
+        h3 {
+          font-size: 18px;
+          margin-bottom: 10px;
+        }
+  
+        p {
+          font-size: 14px;
+        }
+      }
+    }
+  
+    /* TITLE NEW */
+    .title_section_new {
+      font-size: 26px !important;
+    }
+  
+  }
+  
+  
+  /* EXTRA SMALL DEVICE */
+  @media (max-width: 576px) {
+  
+    .header_biotech .header-logo {
+      height: 40px;
+    }
+  
+    .biotech_banner {
+      height: 50vh;
+    }
+  
+    .experience_section h2 {
+      font-size: 26px;
+    }
+  
+    .wrap_section_content h2.title_section {
+      font-size: 24px;
+    }
+
+
+    .title_section br {
+        display: none;
+    }
+    .block_formula_section .slide_label{
+        margin-top: 30px;
+    }
+    .section_nature .left_space_container{
+        padding-left: 0;
+    }
+
+    #product-categories{
+        h3{
+            margin-top: 60px;
+            padding: 0px 5px;
+            font-size: 24px;
+        }
+    }
+    
+  
+  }
+
+

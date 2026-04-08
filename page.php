@@ -160,4 +160,7 @@ if($request[0] == "my-account"){
 		</div>
 	</div>
 </section>
+
+<?php get_template_part('template/component/button-whatsapp'); ?>
+
 <?php get_footer(); ?>

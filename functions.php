@@ -28,7 +28,21 @@ function theme_scripts()
 	wp_enqueue_style('scrollbar', get_template_directory_uri() . '/css/jquery.scrollbar.css', array(), VERSION);
 	wp_enqueue_style('animate', get_template_directory_uri() . '/css/animate.min.css', array(), VERSION);
 	wp_enqueue_style('aos', get_template_directory_uri() . '/css/aos.css', array(), VERSION);
-	wp_enqueue_style('main-style', get_template_directory_uri() . '/style.css', array(), VERSION);
+	// wp_enqueue_style('main-style', get_template_directory_uri() . '/style.css', array(), VERSION);
+
+	wp_enqueue_style(
+		'main-style',
+		get_template_directory_uri() . '/style.css',
+		array(),
+		filemtime(get_template_directory() . '/style.css')
+	);
+	wp_enqueue_style(
+		'main-style-responsive',
+		get_template_directory_uri() . '/responsive.css',
+		array(),
+		filemtime(get_template_directory() . '/responsive.css')
+	);
+
 	wp_enqueue_script('jquery', get_template_directory_uri() . '/js/jquery-2.2.4.min.js', '', VERSION, true);
 	wp_enqueue_script('slickjs', get_template_directory_uri() . '/slick/slick.min.js', array('jquery'), VERSION, true);
 	wp_enqueue_script('bootstrapjs', get_template_directory_uri() . '/js/bootstrap.js', array('jquery'), VERSION, true);
@@ -983,3 +997,36 @@ function haldin_product_default_sort_latest( $query ) {
 // add_action('wp_enqueue_scripts', function () {
 //     wp_enqueue_script('jquery');
 // });
+
+
+// Swiper.js
+function haldin_enqueue_assets() {
+    // Swiper CSS
+    wp_enqueue_style(
+        'swiper-css',
+        'https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css',
+        array(),
+        '11.0.0'
+    );
+    // Swiper JS
+    wp_enqueue_script(
+        'swiper-js',
+        'https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js',
+        array(),
+        '11.0.0',
+        true
+    );
+
+    // Custom JS (load setelah Swiper)
+    wp_enqueue_script(
+        'haldin-custom-js',
+        get_template_directory_uri() . '/js/custom.js',
+        array('swiper-js'), // dependency
+        '1.2.0',
+        true
+    );
+
+}
+add_action('wp_enqueue_scripts', 'haldin_enqueue_assets');
+
+

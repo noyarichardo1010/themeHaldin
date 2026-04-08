@@ -21,19 +21,22 @@ if(!is_home()) {
 						<a class="nav-link scroll" href="<?php echo $url;?>#our-story" style="font-size: 1.3rem;">Our Story</a>
 					</li>-->
 					<li class="nav-item px-4 mr-0 mr-lg-4">
-						<a class="nav-link scroll px-4 mr-0 mr-lg-4" href="<?php echo $url;?>#origin" style="font-size: 1.3rem;">Origin</a>
+						<a class="nav-link scroll px-4 mr-0 mr-lg-4" href="<?php echo $url;?>#wework" style="font-size: 1.1rem;font-weight: 600;">How We Work</a>
 					</li>
 				
 					<li class="nav-item px-4 mr-0 mr-lg-4">
-						<a class="nav-link scroll px-4 mrr-0 mr-lg-4" href="<?php echo $url;?>#planet" style="font-size: 1.3rem;">Planet</a>
+						<a class="nav-link scroll px-4 mrr-0 mr-lg-4" href="<?php echo $url;?>#buildingblocks" style="font-size: 1.1rem;font-weight: 600;">Our Building Blocks</a>
 					</li>
 				
 					<li class="nav-item px-4 mr-lg-4 mr-0">
-						<a class="nav-link px-4 mr-lg-4 mr-0" href="<?php echo get_site_url();?>/contact-us" style="font-size: 1.3rem;">Contact Us</a>
+						<a class="nav-link px-4 mr-lg-4 mr-0" href="<?php echo get_site_url();?>/contact-us" style="font-size: 1.1rem;font-weight: 600;">Contact Us</a>
 					</li>
-					<div class="lang_option02">
-						<!-- <?php echo do_shortcode('[lang_switcher_id_en]'); ?> -->
-						<!-- <?php echo do_shortcode('[language-switcher]'); ?> -->
+					<!-- <div class="lang_option02">
+						<?php echo do_shortcode('[lang_switcher_id_en]'); ?>
+						<?php echo do_shortcode('[language-switcher]'); ?>
+					</div> -->
+				 	<div class="lang_option02">
+						<?php echo do_shortcode('[language-switcher]'); ?>
 					</div>
 				</ul>
 				<!-- <div class="lang_option">

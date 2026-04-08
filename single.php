@@ -304,12 +304,13 @@ $cards = [
                         <img src="<?php echo esc_url($image_sustainability); ?>" alt="sustainability">
                     <?php endif; ?>
 
-                    <?php if ($desc_sus_1): ?><h6 class="content_1"><?php echo esc_html($desc_sus_1); ?></h6><?php endif; ?>
-                    <?php if ($desc_sus_2): ?><h6 class="content_2"><?php echo esc_html($desc_sus_2); ?></h6><?php endif; ?>
                     <?php if ($desc_sus_3): ?><h6 class="content_3"><?php echo esc_html($desc_sus_3); ?></h6><?php endif; ?>
                     <?php if ($desc_sus_4): ?><h6 class="content_4"><?php echo esc_html($desc_sus_4); ?></h6><?php endif; ?>
                     <?php if ($desc_sus_5): ?><h6 class="content_5"><?php echo esc_html($desc_sus_5); ?></h6><?php endif; ?>
                     <?php if ($desc_sus_6): ?><h6 class="content_6"><?php echo esc_html($desc_sus_6); ?></h6><?php endif; ?>
+                        
+                    <?php if ($desc_sus_2): ?><h6 class="content_2"><?php echo esc_html($desc_sus_2); ?></h6><?php endif; ?>
+                    <?php if ($desc_sus_1): ?><h6 class="content_1"><?php echo esc_html($desc_sus_1); ?></h6><?php endif; ?>
 
                 </div>
             </div>
