@@ -18,6 +18,7 @@ if (!is_home()) {
         <a class="nav-link scroll mx-2 p-0" href="https://haldin.com/category/media">Media</a>
         <a class="nav-link scroll mx-2 p-0" href="https://www.linkedin.com/company/pt-haldin-pacifik-semesta">Follow Us</a>
         <a class="nav-link scroll p-0 ml-2" href="https://career.haldingroup.com/">Career</a>
+        <a class="nav-link scroll p-0 ml-2" href="https://brand.haldin.com/">Brand Assets</a>
       </div>
       <div
         class="col-lg-6 col-md-6 col-sm-12 col-12 d-flex align-items-center justify-content-lg-end justify-content-center" style="font-size: 12px;">
