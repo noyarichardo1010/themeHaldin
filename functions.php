@@ -36,11 +36,19 @@ function theme_scripts()
 		array(),
 		filemtime(get_template_directory() . '/style.css')
 	);
+
 	wp_enqueue_style(
 		'main-style-responsive',
 		get_template_directory_uri() . '/responsive.css',
 		array(),
 		filemtime(get_template_directory() . '/responsive.css')
+	);
+
+	wp_enqueue_style(
+		'google-font-poppins',
+		'https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap',
+		array(),
+		null
 	);
 
 	wp_enqueue_script('jquery', get_template_directory_uri() . '/js/jquery-2.2.4.min.js', '', VERSION, true);
@@ -50,6 +58,7 @@ function theme_scripts()
 	wp_enqueue_script('scrollbar', get_template_directory_uri() . '/js/jquery.scrollbar.js', array('jquery'), VERSION, true);
 	wp_enqueue_script('aos', get_template_directory_uri() . '/js/aos.js', array('jquery'), VERSION, true);
 	wp_enqueue_script('site', get_template_directory_uri() . '/js/site.js', array('jquery', 'slickjs', 'bootstrapjs', 'scrollbar', 'aos'), VERSION, true);
+	wp_enqueue_script('innovation-new-js', get_template_directory_uri() . '/js/innovation_new.js', array('jquery'), VERSION, true);
 	wp_localize_script('site', 'myAjax', array('ajaxUrl' => admin_url('admin-ajax.php')));
 }
 
@@ -1030,3 +1039,12 @@ function haldin_enqueue_assets() {
 add_action('wp_enqueue_scripts', 'haldin_enqueue_assets');
 
 
+add_action('pre_get_posts', function ($query) {
+    if (is_admin() || !$query->is_main_query()) {
+        return;
+    }
+
+    if (is_tax('innovation_category')) {
+        $query->set('posts_per_page', -1); // Ganti -1 untuk menampilkan semua item, atau isi angka (misal: 20)
+    }
+});

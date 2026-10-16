@@ -8,7 +8,7 @@
                         Each application brings different challenges. Understanding behavior makes the difference. 
                     </p>
                     <div class="wrap_button mt-5">
-                        <a href="https://haldin.com/innovation-category/tea/">Application</a>
+                        <a href="<?php echo esc_url( home_url( '/application/' ) ); ?>">Application</a>
                     </div>
                     
                 </div>

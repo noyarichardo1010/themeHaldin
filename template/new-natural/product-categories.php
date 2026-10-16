@@ -34,7 +34,7 @@ background-position-x: 1%;
           style="background-size: cover;background-position: bottom;background-image: url(<?php echo wp_get_attachment_url($image);?>); "></div>
           <div class="col-lg-6 col-sm-6 col-sm-12 col-12 col-content category-item-content" style="text-align:center"> 
 						<h3 class="font-weight-bold macSizee" style="padding: 0px 75px;font-size: 35px;font-family: 'Futura Std', sans-serif !important;font-weight: 600 !important;text-transform: uppercase;"><?php echo $category->name; ?></h3>
-            <div class="category-item-description macDes mb-3" style="padding: 10px 16px;font-family: 'ITC Century Std', serif;">
+            <div class="category-item-description macDes mb-3" style="padding: 10px 16px;font-family: 'Poppins', sans-serif;">
               <?php echo $category->description; ?>
             </div>
             <a href="<?php echo $url; ?>"
